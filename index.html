@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aman Medical Centre</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="CareMed demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/amanlogo.jpg" type="image/gif">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<style>
+        .menu_inner {
+            padding: 15px;
+        }
+
+        .menu_list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu_item {
+            margin-bottom: 15px;
+        }
+
+        .menu_item a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+        }
+
+        .menu_extra {
+            margin-top: 20px;
+        }
+
+        .menu_appointment a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .menu_emergencies {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #d9534f;
+        }
+
+        .submenu_list {
+            list-style: none;
+            padding-left: 20px;
+            display: none;
+        }
+
+        .menu_item_dropdown:hover .submenu_list {
+            display: block;
+        }
+        .submenu_item a {
+            color: #007BFF;
+        }
+
+</style>
+</head>
+<body>
+<div class="super_container">
+	<!-- Header -->
+	<header class="header trans_200">
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+							<div class="top_bar_item"><a href="faq.html">FAQ</a></div>
+							<div class="top_bar_item"><a href="#">Request an Appointment</a></div>
+							<div class="top_bar_item"><a href="contact.html">Contact</a></div>
+							 <div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">AMAN MEDICAL CENTRE</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<nav class="main_nav ml-auto">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<!-- <li><a href="about.html">About us</a></li> -->
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Health Information
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="executivehealth.html">Executive Health Screening</a>
+											<a class="dropdown-item" href="clinic.html">Clinic Health Screening</a>
+											<a class="dropdown-item" href="homebased.html">Home Based  Health Screening</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Paediatrics 
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="paediatrics.html">Paediatric Clinic</a>
+											
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Services
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="executivehealth.html">Executive Health Screening</a>
+											<a class="dropdown-item" href="clinic.html">Clinic Health Screening</a>
+											<a class="dropdown-item" href="homebased.html">Home Based  Health Screening</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Counselling
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="executivehealth.html">Counselling Centre</a>
+											<a class="dropdown-item" href="clinic.html">Join Us as a Therapist</a>
+											<a class="dropdown-item" href="homebased.html">Room Rental</a>
+										</div>
+									</li>
+									<li><a href="news.html">Corporate</a></li>
+									<!-- <li><a href="contact.html">Contact</a></li> -->
+								</ul>
+							</nav>
+							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logo -->
+		<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+
+
+					<div class="col">
+						<div class="logo_container">
+							<a href="#">
+								<div class="logo_content ">
+									 <div class="logo_line"></div> 
+									<div class="logo d-flex flex-row align-items-center justify-content-center">
+										<div class="logo_sub text-danger">AMAN MEDICAL CENTRE </div>
+										<div class="logo_text"><img class="img" src="images/amandec12.jpg" alt="" style="width:100px;height:72px;"></div>
+										 <!-- <div class="logo_box">+</div>  -->
+									</div>
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- <div class="col" style="height: 150px;">
+						< div class="logo_container">
+							<img class="" src="images/amandec.jpg" alt="" style="width: 100;height: 114;">
+							
+						</>
+					</div> -->
+				</div>
+			</div>	
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	 <!-- <div class="menu_container menu_mm">
+
+		
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+					
+					<li class="menu_item menu_mm menu_item_dropdown">
+						<a>Health Screening</a>
+						<ul class="submenu_list menu_mm">
+							<li class="submenu_item menu_mm"><a  href="executivehealth.html">Executive Health Screening</a></li>
+							<li class="submenu_item menu_mm"><a  href="clinic.html">Clinic Health Screening</a></li>
+							<li class="submenu_item menu_mm"><a  href="homebased.html">Home Based  Health Screening</a></li>
+							
+						</ul>
+					</li>
+					<li class="menu_item menu_mm menu_item_dropdown">
+						<a href="#">Paediatrics </a>
+						<ul class="submenu_list menu_mm">
+							<li class="submenu_item menu_mm"><a  href="paediatrics.html">Paediatric  Clinic</a></li>
+							
+							
+						</ul>
+					</li>
+					<li class="menu_item menu_mm menu_item_dropdown">
+						<a href="#">General Practice</a>
+						<ul class="submenu_list menu_mm">
+							<li class="submenu_item menu_mm"><a  href="executivehealth.html">Executive Health Screening</a></li>
+							<li class="submenu_item menu_mm"><a  href="clinic.html">Clinic Health Screening</a></li>
+							<li class="submenu_item menu_mm"><a  href="homebased.html">Home Based  Health Screening</a></li>
+							
+						</ul>
+					</li>
+
+					<li class="menu_item menu_mm menu_item_dropdown">
+						<a href="#">	Counselling</a>
+						<ul class="submenu_list menu_mm">
+							<li class="submenu_item menu_mm"><a  href="executivehealth.html">Counselling Centre</a></li>
+							<li class="submenu_item menu_mm"><a  href="clinic.html">Join Us as a Therapist</a></li>
+							<li class="submenu_item menu_mm"><a  href="homebased.html">Room Rental</a></li>
+							
+						</ul>
+					</li>
+
+					<li class="menu_item menu_mm"><a href="news.html">Corporate</a></li>
+					
+				</ul>
+			</div>
+			<div class="menu_extra">
+				<div class="menu_appointment"><a href="#">Request an Appointment</a></div>
+				<div class="menu_emergencies">AMAN MEDICAL CENTRE</div>
+			</div>
+
+		</div>
+
+	</div> -->
+
+	<div class="menu_container menu_mm">
+        <div class="menu_close_container">
+            <div class="menu_close"></div>
+        </div>
+        <div class="menu_inner menu_mm">
+            <div class="menu menu_mm">
+                <ul class="menu_list menu_mm">
+                    <li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+                    <li class="menu_item menu_mm menu_item_dropdown">
+                        <a href="#">Health Screening <i class="fa fa-chevron-down"></i></a>
+                        <ul class="submenu_list menu_mm">
+                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
+                            <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
+                            <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item menu_mm menu_item_dropdown">
+                        <a href="#">Paediatrics <i class="fa fa-chevron-down"></i></a>
+                        <ul class="submenu_list menu_mm">
+                            <li class="submenu_item menu_mm"><a href="paediatrics.html">Paediatric Clinic</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item menu_mm menu_item_dropdown">
+                        <a href="#">General Practice <i class="fa fa-chevron-down"></i></a>
+                        <ul class="submenu_list menu_mm">
+                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
+                            <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
+                            <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item menu_mm menu_item_dropdown">
+                        <a href="#">Counselling <i class="fa fa-chevron-down"></i></a>
+                        <ul class="submenu_list menu_mm">
+                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Counselling Centre</a></li>
+                            <li class="submenu_item menu_mm"><a href="clinic.html">Join Us as a Therapist</a></li>
+                            <li class="submenu_item menu_mm"><a href="homebased.html">Room Rental</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item menu_mm"><a href="news.html">Corporate</a></li>
+                </ul>
+            </div>
+            <div class="menu_extra">
+                <div class="menu_emergencies">AMAN MEDICAL CENTRE</div>
+            </div>
+        </div>
+    </div>
+
+
+
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_slider_container">
+			<!-- Home Slider -->
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/spineleimg.jpg); opacity:0.5"></div>
+					<div class="home_content">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_content_inner">
+										<!-- <div class="home_title"><h3 class="primary">Executive Health Screening</h3></div>
+										<div class="home_title"><h4>Preventive medicine made precise for you</h4></div> -->
+										<div class="home_title"><h6 class="text-dark">AMAN MEDICAL CENTRE</h6></div>
+										
+										<div class="home_text">
+											
+												<p class="text-justify text-dark" >Aman Medical centre is a healthcare facility dedicated to providing comprehensive and 
+													compassionate medical care to its patients. With a team of experienced doctors and healthcare professionals,
+													 the clinic offers a wide range of services, including general health check-ups, preventive care, diagnostics,
+													  and treatment for various medical conditions. Aman Medical centre is committed to ensuring the well-being of
+													   the community by delivering high-quality, personalized care in a comfortable and friendly environment.
+													   Aman Medical centre stands as a beacon of excellence in healthcare, prioritizing patient-centered care and 
+													   modern medical practices. Located in a convenient and accessible area, the clinic is equipped with state-of-the-art
+													    medical technology and facilities to cater to the diverse needs of its patients.
+
+												   </p>
+												
+										</div>
+										<!-- <div class="button home_button">
+											<a href="#">read more</a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+
+				
+
+			</div>
+		</div>
+	</div>
+
+	<!-- 3 Boxes -->
+
+	<div class="boxes">
+		<div class="container">
+			<div class="row">
+				
+				<!-- Box -->
+				<div class="col-lg-4 box_col">
+					<div class="box working_hours">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
+						<div class="box_title font-italic">Get Ready For Flu Season!</div>
+						<div class="working_hours_list">
+							<ul>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Spread Positivity </div>
+									<div class="ml-auto">Not Germs!</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>4-in-1flu</div>
+									<div class="ml-auto">$30</div>
+								</li>
+								<!-- <li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Sunday</div>
+									<div class="ml-auto"></div>
+								</li> -->
+							</ul>
+
+							 <div class="button home_button">
+											<a href="#">Book Now</a>
+										</div> 
+						</div>
+					</div>
+				</div>
+
+				<!-- Box -->
+				<div class="col-lg-4 box_col">
+					<div class="box box_appointments">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width: 29px; height:29px;"><img src="images/phone-call.svg" alt=""></div></div>
+						<div class="box_title font-italic">Screen in the Afternoon</div>
+						<div class="box_text"> No Need To Fast!.18 Tests including Blood and Urine Analysis
+							
+						</div>
+						
+                        <div class="button home_button">
+							<a href="#">Book Now</a>
+						</div> 
+
+
+					</div>
+
+					
+				</div>
+
+				<!-- Box -->
+				<div class="col-lg-4 box_col">
+					<div class="box box_emergency">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width: 37px; height:37px; margin-left:-4px;"><img src="images/bell.svg" alt=""></div></div>
+						<div class="box_title font-italic">24x7 Service</div>
+						<div class="box_phone">+65 6209 0979</div>
+						<div class="box_mail">amanmedical@spinelle.com.sg</div>
+						<div class="box_emergency_text">We Provide best health care facilities 24x7.</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+	<div class="about" >
+		<div class="container">
+			<div class="row row-lg-eq-height">
+				
+				<!-- About Content -->
+				<div class="col-lg-7">
+					<div class="about_content">
+						<div class="section_title"><h2>Executive Health Screening</h2></div>
+						<div class="about_text">
+							<p class="text-justify">Stay ahead of potential medical conditions by screening early before symptoms present.
+								Insure yourself for better health outcomes through our comprehensive packages conducted at screening centres 
+								located across Singapore.Real time booking with instant confirmation means faster access. Inhouse X-rays.
+								 ultrasounds, mammogram and treadmill means greater convenience. Next day blood test results with video 
+								 consultation follow up is important
+									<span class="" id="dots">...</span><span class="" id="moreText"    style="display: none;">  for us and for you. We take the pain out of cancer screening, cardiac 
+										health assessment, breast screening and genetic testing.</span>
+								</p>
+						</div>
+						
+						<div>
+							<button id="showMoreBtn" onclick="showMoreText()">Read More</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- About Image -->
+				<div class="col-lg-5">
+					<div class="about_image"><img src="images/medical_team.jpg" alt="image" style="width:380px; height:350px;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Departments -->
+
+	<div class="departments">
+		<div class="departments_background parallax-window" data-parallax="scroll" data-image-src="images/departments.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title section_title_light"><h2>Our Health Screening Centres</h2></div>
+				</div>
+			</div>
+			<div class="row departments_row row-md-eq-height">
+				
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_image"><img src="images/dept_1.jpg" alt=""></div>
+						<div class="dept_content text-center">
+							<div class="dept_title">Aman Health Screeners</div>
+							<div class="dept_subtitle">@ Center 1</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_image"><img src="images/dept_2.jpg" alt=""></div>
+						<div class="dept_content text-center">
+							<div class="dept_title">Aman wellness collective</div>
+							<div class="dept_subtitle">@ Center 2</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_image"><img src="images/dept_3.jpg" alt=""></div>
+						<div class="dept_content text-center">
+							<div class="dept_title">Aman  Screening Center</div>
+							<div class="dept_subtitle">@ Center3</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Department -->
+				<!-- <div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_text">
+							<p> </p>
+						</div>
+						<div class="button dept_button"><a href="#">read more</a></div>
+					</div>
+				</div> -->
+
+                <div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_image"><img src="images/dept_2.jpg" alt=""></div>
+						<div class="dept_content text-center">
+							<div class="dept_title">Aman  Screening Center</div>
+							<div class="dept_subtitle">@ Center 4</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Services -->
+	<div class="accordions_tabs" style="margin-bottom: 50px;">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title"><h2>Frequently Asked Questions</h2></div>
+				</div>
+			</div>
+
+			<div class="row accordions_tabs_row">
+				<div class="col-lg-7">
+				
+					<!-- Accordions -->
+				 
+					<!-- Accordions -->
+					<div class="accordions">
+						
+						<div class="elements_accordions">
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center "><div>About Aman health Care?</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p class="text-justify">
+                                            <ul>  
+                                       <li>Aman Medical centre is a healthcare facility dedicated to providing comprehensive and 
+                                            compassionate medical care to its patients.Aman Medical centre is an executive health screener in Singapore providing
+                                             Executive Health Screening at Paragon, on an appointment basis.
+                                            </li>     
+                                        <li>    Our operating hours are:</li>     
+                                            
+                                         <li>    Mon-Fri: 8:45am to 12:00pm ,&nbsp;2:00 to  6:00pm</li>
+                                            
+                                          <li>  Sat: 9:00am to 12:00pm</li>
+                                            
+                                         <li>   Sunday & Public Holiday :&nbsp;Closed</li>
+
+                                        <li>   Please note that medical check up and post health screening follow-up at our executive health screening centre,
+                                            Aman Medical centre, is on an appointment basis and you may email office@aman.sg for further arrangements.</li>
+                                            </ul>
+                                            </p>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>How do I get Aman Health Care  Health Screeners ?</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p>To get health screeners at Aman Health Care, you can follow these steps:
+                                            <ul>
+                                          <li class="text-justify">1. Visit the Clinic: Go to Aman Medical centre  in person and inquire about their health screening programs
+                                             at the reception. The staff can provide detailed information about the available screening packages and help
+                                              you schedule an appointment.
+                                            </li> 
+                                        <li class="text-justify">2.  Call the Clinic: Contact Aman Medical centre  via phone. The clinic’s phone number should be available on
+                                             their official website or through local directories. Call the clinic to speak with a representative who can 
+                                             guide you through the process of booking a health screening appointment.
+                                            </li>
+                                        <li class="text-justify">3.  Online Appointment Booking: Many healthcare facilities offer online appointment booking through their official
+                                             website. Visit Aman Medical centre’s website, look for the "Book an Appointment" or "Health Screening" section, 
+                                             and follow the instructions to schedule your screening online.
+                                            </li>
+                                        <li class="text-justify">4.  Email Inquiry: If you prefer, you can send an email to Aman Medical centre’s official email address. In your
+                                             email, mention your interest in health screeners and request information on available packages and appointment
+                                              availability. The clinic staff will respond with the necessary details and further instructions.
+                                            </li>
+                                        <li class="text-justify">5.   Consult Your Primary Care Physician: If you already have a primary care physician associated with Aman Health
+                                             Care, discuss your interest in health screening with them. They can provide recommendations on the appropriate 
+                                             screening packages and help you set up an appointment.</li>
+                                            </ul>
+                                            </p>
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>How do I make an Appointment for Executive Health Screening?</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p class="text-justify">
+                                            To make an appointment for Executive Health Screening at Aman Medical centre, you can follow these steps:
+                                         
+                                            
+                                            <li><strong>Visit the Clinic in Person:</strong></li>
+                                                <ul class="text-justify">
+                                         <li>
+                                        Go to Aman Medical centre.
+                                        </li>
+                                      <li>  Inquire at the reception about the Executive Health Screening program.</li>
+                                      <li>  The staff will provide you with information about the available screening packages and help you schedule an appointment.</li>
+                                        </ul>
+
+
+                                    <li> <strong>   Call the Clinic:</strong></li>
+                                           <ul class="text-justify">
+                                     <li>  Find the clinic’s phone number on their official website or through local directories.</li>
+                                      <li> Call the clinic and ask to speak with a representative about booking an Executive Health Screening.</li>
+                                     <li>   Provide your details and preferred appointment time, and the representative will assist you in scheduling the screening.</li>
+                                    </ul>
+                                    <li> <strong>  Online Appointment Booking: </strong></li>
+                                    <ul class="text-justify">
+                                     <li>   Visit the official website of Aman Medical centre.</li>
+                                     <li>   Look for the "Book an Appointment" or "Executive Health Screening" section.</li>
+                                     <li>   Follow the instructions to fill out the necessary information and choose an available date and time for your appointment.</li>
+                                    </ul>
+                                     <li> <strong> Email Inquiry:</strong></li>
+                                    <ul class="text-justify">
+                                      <li> Send an email to the clinic's official email address.</li>
+                                    <li>    In your email, mention your interest in the Executive Health Screening program and request information on available packages and appointment availability.</li>
+                                      <li>  The clinic staff will respond with the necessary details and further instructions for scheduling your appointment.</li>
+                                    </ul>
+                                    <li> <strong>   Consult Your Primary Care Physician:</strong></li>
+                                           <ul class="text-justify">
+                                     <li>  If you have a primary care physician associated with Aman Medical centre, discuss your interest in Executive Health Screening with them.</li>
+                                      <li>  They can provide recommendations on the appropriate screening packages and help you set up an appointment.</li>
+                                       
+                                    </ul>
+
+                                        
+                                        </p>
+									</div>
+								</div>
+							</div>
+                            <div class="accordion_container">
+								<div class="accordion d-flex flex-row align-items-center"><div>Can i proceed for Health Screening after Vaccination?</div></div>
+								<div class="accordion_panel">
+									<div>
+										<p>
+                                            
+                                                
+                                                <ul class="text-justify">
+                                                    <li>Yes, you can proceed with health screening after vaccination.</li>
+                                                    <li>It is recommended to wait for a few days after your vaccination to ensure accurate results.</li>
+                                                    <li>Some vaccines might cause temporary changes in your body's immune response and health metrics.</li>
+                                                    <li>If you have any concerns, it’s best to consult with your healthcare provider before scheduling your screening.</li>
+                                                </ul>
+                                            
+                                        </p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-lg-5">
+					
+					<!-- Tabs -->
+					<div class="tabs">
+						
+						<div class="tabs_container">
+							<div class="tabs d-flex flex-row align-items-center justify-content-start">
+								
+								
+								<div class="tab active">Doctors</div>
+								<div class="tab"><a href="news.html">News</a></div>
+								<!-- <div class="tab">Jobs</div> -->
+							</div>
+							<div class="tab_panels">
+								 
+								<div class="tab_panel active">
+									<div class="tab_panel_content">
+										<div class="tab_text clearfix">
+											<p class="text-justify">Doctors play a crucial role in preventive care, educating patients on maintaining a healthy 
+												lifestyle and managing chronic conditions.A doctor is a medical professional trained to
+												 diagnose and treat illnesses, injuries, and other health conditions.
+												Doctors may specialize in various fields such as pediatrics, cardiology, orthopedics, or
+												 general practice.
+												They provide comprehensive care, including conducting examinations, ordering and interpreting
+												 tests, prescribing medications, and performing procedures.</p>
+										</div>
+									</div>
+								</div>
+								  <div class="tab_panel">
+									<div class="tab_panel_content">
+										<div class="tab_text clearfix">
+											<p class="text-justify">Aman Medical centre offers a variety of job opportunities across different healthcare disciplines, including positions for doctors, nurses, medical assistants, and administrative staff.
+												Healthcare professionals at Aman Medical centre work collaboratively to provide high-quality care to patients, ensuring their physical, emotional, and developmental well-being.
+												The clinic also employs specialized roles such as lab technicians, radiologists, and pharmacists to support comprehensive medical services.
+												<!-- Administrative roles are essential for the efficient operation of the clinic, including positions in patient scheduling, billing, and health information management.
+												Aman Clinic values continuous professional development, providing training and growth opportunities to its employees to keep pace with medical advancements and enhance patient care. </p> -->
+										</div>
+									</div>
+								</div>  
+								
+								</div>  
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Call to action -->
+
+	<div class="cta">
+		<div class="cta_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_content text-center">
+						<h2>Need a personal health plan?</h2>
+						<p class="text-justify">Are you seeking a personalized health plan tailored to your unique needs? Whether
+							 you're focused on weight management, improving fitness, managing chronic conditions, or enhancing overall 
+							 well-being, our team is here to help. We offer comprehensive assessments and personalized recommendations 
+							 to create a health plan that fits your lifestyle and goals. Let us guide you on your journey to better health 
+							 with expert advice, support, and tailored strategies designed just for you.
+
+						</p>
+						<div class="button cta_button"><a>request a plan</a></div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_container">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Footer - About -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_about">
+							<div class="footer_logo_container">
+								<a href="#" class="d-flex flex-column align-items-center justify-content-center">
+									<div class="logo_content">
+										<div class="logo d-flex flex-row align-items-center justify-content-center">
+											<div class="logo_text">AMAN<span></span></div>
+											<!-- <div class="logo_box">+</div> -->
+										</div>
+										<div class="logo_sub"> MEDICAL CENTRE </div>
+									</div>
+								</a>
+							</div>
+							<div class="footer_about_text">
+								<p class="text-justify">Healthcare is not just about treating illnesses, it's about promoting wellness and ensuring everyone can live their fullest lives.</p>
+							</div>
+							<ul class="footer_about_list">
+								<li><div class="footer_about_icon"><img src="images/phone-call.svg" alt=""></div><span>+65 6209 0979</span></li>
+								<li><div class="footer_about_icon"><img src="images/envelope.svg" alt=""></div><span>amanmedical@spinelle.com.sg</span></li>
+								<li><div class="footer_about_icon"><img src="images/placeholder.svg" alt=""></div><span>228 Changi Road,ICON@Changi,#01-01,Singapore &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;   419741</span></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer - Links -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_links footer_column">
+							<div class="footer_title">Useful Links</div>
+							<ul>
+								<li><a href="about.html">About us</a></li>
+								<li><a href="news.html">News</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Our Screening Program</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer - News -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_news footer_column">
+							<div class="footer_title">Useful Links</div>
+							<ul>
+								<li>
+									<div class="footer_news_title"><a href="news.html">The greatest wealth is health.</a></div>
+									<div class="footer_news_date">july 05 2024</div>
+								</li>
+								<li>
+									<div class="footer_news_title"><a href="news.html">Healthcare is a right, not a privilege</a></div>
+									<div class="footer_news_date">Aug 05 2024</div>
+								</li>
+								<li>
+									<div class="footer_news_title"><a href="news.html">Health is wealth</a></div>
+									<div class="footer_news_date">Nov 05 2024</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
+							<div class="cr">
+                   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |  made with <i class="fa fa-heart-o" aria-hidden="true"></i> by ASTE
+</div>
+							<div class="footer_social ml-lg-auto">
+								<ul>
+									
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</footer>
+	<button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+ <script>
+ 	function showMoreText() {
+	let dots = document.getElementById("dots");
+	let moreText = document.getElementById("moreText");
+	let btnText = document.getElementById("showMoreBtn");
+
+	if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btnText.innerHTML = "Read more"; 
+		moreText.style.display = "none";
+	} else {
+		dots.style.display = "none";
+		btnText.innerHTML = "Read less"; 
+		moreText.style.display = "inline";
+	}
+}
+
+</script> 
+</body>
+</html>
