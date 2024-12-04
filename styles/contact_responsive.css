@@ -278,16 +278,18 @@
 	}
 	.logo_container
 	{
-		width: 141px;
-		height: 77px;
+		width: 160px;
+		height: 110px;
 	}
-	.logo_content
+	 .logo_content
 	{
 		padding-left: 20px;
 	}
 	.logo_text
 	{
-		font-size: 16px;
+		font-size:8px;
+		height: 50px;
+	     width: 40px;
 	}
 	.logo_box
 	{
@@ -296,11 +298,18 @@
 		line-height: 12px;
 		font-size: 12px;
 	}
-	.logo_sub
-	{
-		font-size: 10px;
-		padding-left: 1px;
-	}
+	
+
+	
+
+.logo_sub
+/* {
+	font-size: 9px !impotant;
+	 color: #8f8787; 
+	padding-left: 40px;
+	margin-top: -12px;
+	
+} */
 	.menu
 	{
 		top: 90px;
