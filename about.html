@@ -15,6 +15,23 @@
 <link rel="stylesheet" type="text/css" href="styles/about.css">
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
 <style>
+
+.logo_content
+{
+	width: 100%;
+	height: 100%;
+	padding: 11px;
+} 
+.logo_sub
+{
+	font-size: 18px;
+	font-weight: 400;
+	color: #8f8787;
+	padding-left: 3px;
+	margin-top: 2px;
+}
+
+
 	.menu_inner {
 		padding: 15px;
 	}
@@ -113,16 +130,16 @@
 									</li>
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											Paediatrics 
+											Child Development 
 										</a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 											
-											<a class="dropdown-item" href="paediatrics.html">Paediatric Clinic</a>
+											<a class="dropdown-item" href="paediatrics.html">Child Development Screening</a>
 											
 										</div>
 									</li>
-
-									<li class="nav-item dropdown">
+									<li><a href="services.html">Services</a></li>
+									<!-- <li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 											Services
 										</a>
@@ -132,16 +149,16 @@
 											<a class="dropdown-item" href="clinic.html">Clinic Health Screening</a>
 											<a class="dropdown-item" href="homebased.html">Home Based  Health Screening</a>
 										</div>
-									</li>
+									</li> -->
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 											Counselling
 										</a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 											
-											<a class="dropdown-item" href="executivehealth.html">Counselling Centre</a>
-											<a class="dropdown-item" href="clinic.html">Join Us as a Therapist</a>
-											<a class="dropdown-item" href="homebased.html">Room Rental</a>
+											<a class="dropdown-item" href="#">Counselling Centre</a>
+											<a class="dropdown-item" href="#">Join Us as a Therapist</a>
+											<a class="dropdown-item" href="#">Room Rental</a>
 										</div>
 									</li>
 									<li><a href="news.html">Corporate</a></li>
@@ -166,7 +183,7 @@
 									 <div class="logo_line"></div> 
 									<div class="logo d-flex flex-row align-items-center justify-content-center">
 										<div class="logo_sub text-danger">AMAN MEDICAL CENTRE </div>
-										<div class="logo_text"><img class="img" src="images/amandec12.jpg" alt="" style="width:100px;height:72px;"></div>
+										<div class="logo_text"><img class="img" src="images/amanlogonew.jpg" alt="" style="width:100px;height:72px;"></div>
 										 <!-- <div class="logo_box">+</div>  -->
 									</div>
 									
@@ -199,28 +216,22 @@
                         </ul>
                     </li>
                     <li class="menu_item menu_mm menu_item_dropdown">
-                        <a href="#">Paediatrics <i class="fa fa-chevron-down"></i></a>
+                        <a href="#">Child Development <i class="fa fa-chevron-down"></i></a>
                         <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="paediatrics.html">Paediatric Clinic</a></li>
+                            <li class="submenu_item menu_mm"><a href="paediatrics.html">Child Development Screening</a></li>
                         </ul>
                     </li>
-                    <li class="menu_item menu_mm menu_item_dropdown">
-                        <a href="#">General Practice <i class="fa fa-chevron-down"></i></a>
-                        <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
-                            <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
-                            <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
-                        </ul>
-                    </li>
+                    <li class="menu_item menu_mm"><a href="services.html">Services</a></li>
                     <li class="menu_item menu_mm menu_item_dropdown">
                         <a href="#">Counselling <i class="fa fa-chevron-down"></i></a>
                         <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Counselling Centre</a></li>
-                            <li class="submenu_item menu_mm"><a href="clinic.html">Join Us as a Therapist</a></li>
-                            <li class="submenu_item menu_mm"><a href="homebased.html">Room Rental</a></li>
+                            <li class="submenu_item menu_mm"><a href="#">Counselling Centre</a></li>
+                            <li class="submenu_item menu_mm"><a href="#">Join Us as a Therapist</a></li>
+                            <li class="submenu_item menu_mm"><a href="#">Room Rental</a></li>
                         </ul>
                     </li>
                     <li class="menu_item menu_mm"><a href="news.html">Corporate</a></li>
+					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="menu_extra">
@@ -238,7 +249,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="home_content">
-							<div class="home_title">About <span>AMAN</span></div>
+							<div class="home_title">AMAN MEDICAL <span>CENTRE</span></div>
 							<div class="breadcrumbs">
 								<ul>
 									<li><a href="index.html">Home</a></li>
@@ -355,8 +366,8 @@
 					<div class="box box_emergency">
 						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width: 37px; height:37px; margin-left:-4px;"><img src="images/bell.svg" alt=""></div></div>
 						<div class="box_title">Emergency Cases</div>
-						<div class="box_phone">+6209 0979</div>
-						<div class="box_emergency_text">We Provide best health care facilities 24x7.</div>
+						<div class="box_phone">+65 6209 0979</div>
+						<div class="box_emergency_text">We Provide best health care facilities .</div>
 					</div>
 
 				</div>
@@ -389,7 +400,7 @@
 							  life-changing."</div>
 						<div class="test_author d-flex flex-row align-items-center justify-content-start">
 							<div class="test_author_image"><div><img src="images/alamdar.jpg" alt=""></div></div>
-							<div class="test_author_name"><a href="#">ABC</a>, <span>Patient</span></div>
+							<div class="test_author_name"><a href="#">Mr Salman</a>, <span>Patient</span></div>
 						</div>
 					</div>
 				</div>
@@ -406,7 +417,7 @@
 							  I would highly recommend this medical team to anyone seeking top-notch medical care."</div>
 						<div class="test_author d-flex flex-row align-items-center justify-content-start">
 							<div class="test_author_image"><div><img src="images/alamdar.jpg" alt=""></div></div>
-							<div class="test_author_name"><a href="#">XYZ</a>, <span>Patient</span></div>
+							<div class="test_author_name"><a href="#">Mr Zahid</a>, <span>Patient</span></div>
 						</div>
 					</div>
 				</div>

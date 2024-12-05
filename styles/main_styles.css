@@ -223,7 +223,7 @@ section
 {
 	display: inline-block;
 	height: 51px;
-	background: #283290;
+	background: #ff7518;
 }
 .button::after
 {
@@ -316,7 +316,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #283290;
+	background: #ff7518;
 }
 .top_bar_content
 {
@@ -792,7 +792,7 @@ section
 {
 	width: 100%;
 	height: 300px;
-	background: #283290;
+	background: #ff7518;
 	padding-left: 42px;
 	padding-top: 29px;
 	-webkit-transition: all 200ms ease;
@@ -863,7 +863,7 @@ section
 {
 	font-size: 30px;
 	font-weight: 400;
-	color: #20d34a;
+	color: whitesmoke;
 	margin-top: 20px;
 }
 .box_appointments
@@ -1035,7 +1035,7 @@ section
 }
 .service:hover
 {
-	background: #283290;
+	background: #ff7518;
 }
 .service::after
 {
@@ -1099,7 +1099,7 @@ section
 }
 .service_text p
 {
-	color: #696969;
+	color: #111;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1134,11 +1134,14 @@ section
 {
 	color: #FFFFFF;
 }
-.service:hover .service_text p
+/* .service:hover .service_text p
 {
-	color: rgba(255,255,255,0.65);
+	color:rgba(255,255,255,0.65);
+} */
+.service:hover .service_text ul
+{
+	color:#283290;
 }
-
 /*********************************
 10. CTA
 *********************************/
@@ -1192,7 +1195,7 @@ section
 .footer_container
 {
 	width: 100%;
-	background: #060b3a;
+	background: #dd6515;
 	padding-bottom: 77px;
 }
 .footer_logo_container
@@ -1234,7 +1237,7 @@ section
 }
 .footer_about_text p
 {
-	color: #b2b2b2;
+	color: whitesmoke;
 }
 .footer_about_list
 {
@@ -1270,7 +1273,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #b2b2b2;
+	color: whitesmoke;
 	padding-left: 10px;
 }
 .footer_column
@@ -1281,7 +1284,7 @@ section
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #000;
 }
 .footer_links ul
 {
@@ -1298,7 +1301,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #b2b2b2;
+	color: whitesmoke;
 }
 .footer_news ul
 {
@@ -1308,13 +1311,13 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #b2b2b2;
+	color: whitesmoke;
 }
 .footer_news_date
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #20d34a;
+	color: whitesmoke;
 	margin-top: 7px;
 }
 .footer_news ul li:not(:last-child)
@@ -1324,7 +1327,8 @@ section
 .copyright
 {
 	width: 100%;
-	background: #020523;
+	/* background: #020523; */
+	background: #ff7518;
 }
 .copyright_content
 {
@@ -1335,7 +1339,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #97979c;
+	color: #111;
 }
 .footer_social ul
 {
@@ -1351,7 +1355,7 @@ section
 }
 .footer_social ul li a i
 {
-	color: #20d34a;
+	color: #000;
 	padding: 5px;
 	font-size: 14px;
 	-webkit-transition: all 200ms ease;
@@ -1362,7 +1366,7 @@ section
 }
 .footer_social ul li a i:hover
 {
-	color: #FFFFFF;
+	color: white;
 }
 
 
@@ -1394,7 +1398,7 @@ section
 .showMoreBtn
 {
 	display: inline-block;
-	background: #283290;
+	background: #ff7518;
 	padding: 10px;
 	cursor: pointer;
 	margin-top: 6px;
@@ -1443,7 +1447,7 @@ section
 #showMoreBtn
 {
 	display: inline-block;
-	background: #283290;
+	background: #ff7518;
 	padding: 10px;
 	cursor: pointer;
 	margin-top: 6px;
@@ -1546,7 +1550,7 @@ section
 .accordion.active,
 .accordion:hover
 {
-	background: #283290;
+	background: #ff7518;
 	color: #FFFFFF;
 }
 .accordion:active
@@ -1658,7 +1662,7 @@ section
 .tab.active,
 .tab:hover
 {
-	background: #283290;
+	background: #ff7518;
 	color: #FFFFFF;
 }
 .tab_panels

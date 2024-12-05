@@ -286,39 +286,14 @@
 	{
 		top: 0;
 	}
-	.header.scrolled .logo_container
-	{
+	.header.scrolled 
 		height: 77px;
 	}
 	.hamburger i
 	{
 		font-size: 20px;
 	}
-	.logo_container
-	{
-		width: 141px;
-		height: 77px;
-	}
-	.logo_content
-	{
-		padding-left: 20px;
-	}
-	.logo_text
-	{
-		font-size: 16px;
-	}
-	.logo_box
-	{
-		width: 12px;
-		height: 12px;
-		line-height: 12px;
-		font-size: 12px;
-	}
-	.logo_sub
-	{
-		font-size: 10px;
-		padding-left: 1px;
-	}
+	
 	.menu
 	{
 		top: 90px;

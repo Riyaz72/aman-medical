@@ -268,7 +268,7 @@
 	{
 		top: 0;
 	}
-	.header.scrolled .logo_container
+	.header.scrolled 
 	{
 		height: 77px;
 	}
@@ -276,40 +276,7 @@
 	{
 		font-size: 20px;
 	}
-	.logo_container
-	{
-		width: 160px;
-		height: 110px;
-	}
-	 .logo_content
-	{
-		padding-left: 20px;
-	}
-	.logo_text
-	{
-		font-size:8px;
-		height: 50px;
-	     width: 40px;
-	}
-	.logo_box
-	{
-		width: 12px;
-		height: 12px;
-		line-height: 12px;
-		font-size: 12px;
-	}
 	
-
-	
-
-.logo_sub
-/* {
-	font-size: 9px !impotant;
-	 color: #8f8787; 
-	padding-left: 40px;
-	margin-top: -12px;
-	
-} */
 	.menu
 	{
 		top: 90px;
