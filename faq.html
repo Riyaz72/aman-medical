@@ -15,6 +15,20 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <style>
+	.logo_content
+{
+	width: 100%;
+	height: 100%;
+	padding: 11px;
+} 
+.logo_sub
+{
+	font-size: 18px;
+	font-weight: 400;
+	color: #ff7518;
+	padding-left: 3px;
+	margin-top: 2px;
+}
         .menu_inner {
             padding: 15px;
         }
@@ -67,57 +81,170 @@
 <body>
 <div class="super_container">
 	<!-- Header -->
-	  <header id="header">
+	<header class="header trans_200">
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+							<div class="top_bar_item"><a href="faq.html">FAQ</a></div>
+							<div class="top_bar_item"><a href="#">Request an Appointment</a></div>
+							<div class="top_bar_item"><a href="contact.html">Contact</a></div>
+							 <div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">AMAN MEDICAL CENTRE</div>
+						</div>
 
-      </header>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<nav class="main_nav ml-auto">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<!-- <li><a href="about.html">About us</a></li> -->
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Health Information
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="executivehealth.html">Executive Health Screening</a>
+											<a class="dropdown-item" href="clinic.html">Clinic Health Screening</a>
+											<a class="dropdown-item" href="homebased.html">Home Based  Health Screening</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Child Development
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="paediatrics.html">Child Development Screening</a>
+											
+										</div>
+									</li>
+									<li><a href="services.html">Services</a></li>
+									<!-- <li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Services
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="executivehealth.html">Executive Health Screening</a>
+											<a class="dropdown-item" href="clinic.html">Clinic Health Screening</a>
+											<a class="dropdown-item" href="homebased.html">Home Based  Health Screening</a>
+										</div>
+									</li> -->
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Counselling
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											
+											<a class="dropdown-item" href="#">Counselling Centre</a>
+											<a class="dropdown-item" href="#">Join Us as a Therapist</a>
+											<a class="dropdown-item" href="#">Room Rental</a>
+										</div>
+									</li>
+									<li><a href="news.html">Corporate</a></li>
+									<!-- <li><a href="contact.html">Contact</a></li> -->
+								</ul>
+							</nav>
+							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logo -->
+		<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+
+
+					<div class="col">
+						<div class="logo_container">
+							<a href="#">
+								<div class="logo_content ">
+									 <div class="logo_line"></div> 
+									<div class="logo d-flex flex-row align-items-center justify-content-center">
+										<div class="logo_sub" style="color: #ff7518;">AMAN MEDICAL CENTRE </div>
+										<div class="logo_text"><img class="img" src="images/amanlogonew.jpg" alt="" style="width:100px;height:72px;"></div>
+										 <!-- <div class="logo_box">+</div>  -->
+									</div>
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- <div class="col" style="height: 150px;">
+						< div class="logo_container">
+							<img class="" src="images/amandec.jpg" alt="" style="width: 100;height: 114;">
+							
+						</>
+					</div> -->
+				</div>
+			</div>	
+		</div>
+
+	</header>
 	
-	<!-- <div class="menu_container menu_mm">
-        <div class="menu_close_container">
-            <div class="menu_close"></div>
+  <div class="menu_container menu_mm">
+    <div class="menu_close_container">
+        <div class="menu_close"></div>
+    </div>
+    <div class="menu_inner menu_mm">
+        <div class="menu menu_mm">
+            <ul class="menu_list menu_mm">
+                <li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+                <li class="menu_item menu_mm menu_item_dropdown">
+                    <a href="#">Health Screening <i class="fa fa-chevron-down"></i></a>
+                    <ul class="submenu_list menu_mm">
+                        <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
+                        <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
+                        <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item menu_mm menu_item_dropdown">
+                    <a href="#">Child Development <i class="fa fa-chevron-down"></i></a>
+                    <ul class="submenu_list menu_mm">
+                        <li class="submenu_item menu_mm"><a href="paediatrics.html">Child Development Screening</a></li>
+                    </ul>
+                </li>
+      <li class="menu_item menu_mm"><a href="services.html">Services</a></li>
+                <!-- <li class="menu_item menu_mm menu_item_dropdown">
+                    <a href="#">General Practice <i class="fa fa-chevron-down"></i></a>
+                    <ul class="submenu_list menu_mm">
+                        <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
+                        <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
+                        <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
+                    </ul>
+                </li> -->
+                <li class="menu_item menu_mm menu_item_dropdown">
+                    <a href="#">Counselling <i class="fa fa-chevron-down"></i></a>
+                    <ul class="submenu_list menu_mm">
+                        <li class="submenu_item menu_mm"><a href="#">Counselling Centre</a></li>
+                        <li class="submenu_item menu_mm"><a href="#">Join Us as a Therapist</a></li>
+                        <li class="submenu_item menu_mm"><a href="#">Room Rental</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item menu_mm"><a href="news.html">Corporate</a></li>
+      <li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-        <div class="menu_inner menu_mm">
-            <div class="menu menu_mm">
-                <ul class="menu_list menu_mm">
-                    <li class="menu_item menu_mm"><a href="index.html">Home</a></li>
-                    <li class="menu_item menu_mm menu_item_dropdown">
-                        <a href="#">Health Screening <i class="fa fa-chevron-down"></i></a>
-                        <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
-                            <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
-                            <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item menu_mm menu_item_dropdown">
-                        <a href="#">Paediatrics <i class="fa fa-chevron-down"></i></a>
-                        <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="paediatrics.html">Paediatric Clinic</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item menu_mm menu_item_dropdown">
-                        <a href="#">General Practice <i class="fa fa-chevron-down"></i></a>
-                        <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Executive Health Screening</a></li>
-                            <li class="submenu_item menu_mm"><a href="clinic.html">Clinic Health Screening</a></li>
-                            <li class="submenu_item menu_mm"><a href="homebased.html">Home Based Health Screening</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item menu_mm menu_item_dropdown">
-                        <a href="#">Counselling <i class="fa fa-chevron-down"></i></a>
-                        <ul class="submenu_list menu_mm">
-                            <li class="submenu_item menu_mm"><a href="executivehealth.html">Counselling Centre</a></li>
-                            <li class="submenu_item menu_mm"><a href="clinic.html">Join Us as a Therapist</a></li>
-                            <li class="submenu_item menu_mm"><a href="homebased.html">Room Rental</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu_item menu_mm"><a href="news.html">Corporate</a></li>
-                </ul>
-            </div>
-            <div class="menu_extra">
-                <div class="menu_emergencies">AMAN MEDICAL CENTRE</div>
-            </div>
+        <div class="menu_extra">
+            <div class="menu_emergencies">AMAN MEDICAL CENTRE</div>
         </div>
-    </div> -->
+    </div>
+</div>
 
 
 
@@ -131,7 +258,7 @@
 				
 				<!-- Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/alamdar.jpg); opacity:0.5"></div>
+					<div class="home_slider_background" style="background-image:url(images/aman12.jpg);></div>
 					<div class="home_content">
 						<div class="container">
 							<div class="row">
@@ -159,7 +286,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="section_title"><h2>Frequently Asked Questions</h2></div>
+					<div class="section_title text-uppercase"><h2>Frequently Asked Questions</h2></div>
 				</div>
 			</div>
 
@@ -311,8 +438,8 @@
 							<div class="tabs d-flex flex-row align-items-center justify-content-start">
 								
 								
-								<div class="tab active">Doctors</div>
-								<div class="tab"><a href="news.html">News</a></div>
+								<div class="tab active text-uppercase">Doctors</div>
+								<div class="tab text-uppercase"><a href="news.html">News</a></div>
 								<!-- <div class="tab">Jobs</div> -->
 							</div>
 							<div class="tab_panels">
