@@ -640,6 +640,14 @@ section
 	color: #272727;
 }
 
+
+.main_nav li:hover .dropdown-menu {
+	display: block;
+}
+.hamburger {
+	cursor: pointer;
+}
+
 /*********************************
 5. Home
 *********************************/

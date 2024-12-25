@@ -1304,3 +1304,10 @@ section
 #backToTopBtn:hover {
     background-color: #14da35; 
 }
+
+.main_nav li:hover .dropdown-menu {
+	display: block;
+}
+.hamburger {
+	cursor: pointer;
+}
