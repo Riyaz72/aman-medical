@@ -52,15 +52,15 @@
                         <ul>
                             <li>
                                 <div class="footer_news_title"><a href="#">The greatest wealth is health.</a></div>
-                                <div class="footer_news_date">july 05 2024</div>
+                                <div class="footer_news_date dynamic-date">july 05 2024</div>
                             </li>
                             <li>
                                 <div class="footer_news_title"><a href="#">Healthcare is a right, not a privilege</a></div>
-                                <div class="footer_news_date">Aug 05 2024</div>
+                                <div class="footer_news_date dynamic-date">Aug 05 2024</div>
                             </li>
                             <li>
                                 <div class="footer_news_title"><a href="#">Health is wealth</a></div>
-                                <div class="footer_news_date">Nov 05 2024</div>
+                                <div class="footer_news_date dynamic-date">Nov 05 2024</div>
                             </li>
                         </ul>
                     </div>
@@ -90,3 +90,25 @@
         </div>			
     </div>
 </footer>
+
+<script> 
+    // Function to format the current date
+    function getFormattedDate() {
+        const today = new Date();
+        const options = { year: "numeric", month: "long", day: "numeric" }; // Example: "January 27, 2025"
+        return today.toLocaleDateString("en-US", options);
+    }
+
+    // Add the current date to all elements with the class 'dynamic-date'
+    function updateDates() {
+        const dateElements = document.querySelectorAll(".dynamic-date");
+        const currentDate = getFormattedDate();
+
+        dateElements.forEach((element) => {
+            element.textContent = currentDate;
+        });
+    }
+
+    // Run the script when the DOM is fully loaded
+    document.addEventListener("DOMContentLoaded", updateDates);
+</script>

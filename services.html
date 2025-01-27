@@ -508,7 +508,7 @@
 								<li><a href="news.html">News</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="services.html">Services</a></li>
-								<li><a href="#">FAQ</a></li>
+								<li><a href="faq.html">FAQ</a></li>
 								<li><a href="#">Our Screening Program</a></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								
@@ -523,15 +523,15 @@
 							<ul>
 								<li>
 									<div class="footer_news_title"><a href="#">The greatest wealth is health.</a></div>
-									<div class="footer_news_date">july 05 2024</div>
+									<div class=" footer_news_date dynamic-date"></div>
 								</li>
 								<li>
 									<div class="footer_news_title"><a href="#">Healthcare is a right, not a privilege</a></div>
-									<div class="footer_news_date">Aug 05 2024</div>
+									<div class="footer_news_date dynamic-date"></div>
 								</li>
 								<li>
 									<div class="footer_news_title"><a href="#">Health is wealth</a></div>
-									<div class="footer_news_date">Nov 05 2024</div>
+									<div class="footer_news_date dynamic-date"></div>
 								</li>
 							</ul>
 						</div>
@@ -570,6 +570,7 @@
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/services.js"></script>
+<script src="js/dynamicquodate.js"></script>
 <script>
 	document.addEventListener("DOMContentLoaded", function() {
             let showMoreButtons = document.querySelectorAll(".showMoreBtn");
@@ -610,6 +611,28 @@
 	}
 }
 
+<!-- </script>
+<script> -->
+    // Function to format the current date
+    function getFormattedDate() {
+        const today = new Date();
+        const options = { year: "numeric", month: "long", day: "numeric" }; // Example: "January 27, 2025"
+        return today.toLocaleDateString("en-US", options);
+    }
+
+    // Add the current date to all elements with the class 'dynamic-date'
+    function updateDates() {
+        const dateElements = document.querySelectorAll(".dynamic-date");
+        const currentDate = getFormattedDate();
+
+        dateElements.forEach((element) => {
+            element.textContent = currentDate;
+        });
+    }
+
+    // Run the script when the DOM is fully loaded
+    document.addEventListener("DOMContentLoaded", updateDates);
 </script>
+
 </body>
 </html>
